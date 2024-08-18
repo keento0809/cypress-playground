@@ -1,12 +1,10 @@
-import AboutComponent from "../../components/about-component";
-import styles from "../../styles/Home.module.css";
+import Link from "next/link";
 
-export default function About() {
+export default function Page() {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <AboutComponent />
-      </main>
+    <div>
+      <h1>About</h1>
+      <Link href="/">Home</Link>
     </div>
   );
 }
